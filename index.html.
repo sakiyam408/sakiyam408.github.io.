@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Sakiya Mason</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Otomanopee+One&display=swap" rel="stylesheet">
+  
+  </head>
+  
+  <body>
+
+<!-- NAVIGATION BAR -->
+
+    <div class="nav-bar">
+<nav>
+<ul>
+  <li>
+    <a href="index.html">Home </a>
+</li>
+<li>
+  <a href="portfolio.html">About</a>
+</li>
+  </ul>
+</nav>
+</div>
+<!-- HOME PAGE -->
+
+    <h1>Everyone Deserves Human Rights!</h1>
+
+<!-- IAMGES -->
+
+<div class="row">
+
+<div class="column">
+<a href="disability rights.html">
+  <img src= "disability rights.jpg" alt= "a woman with a robotic leg is holding a sign with three red exclimation points and is standing next to a man in a wheelchair who is holding a sign that says stop.">
+  </a>
+  </div>  
+  
+<div class="column">
+<a href="lgbtqia+ rights.html">
+  <img src= "lgbtqia+ rights.jpg" alt= "a man is holding up a pride flag, to the right of him is a woman holding a 'rights for all sign' and to the right of her is a woman holding an equality sign.">
+  </a>
+  </div>
+<div class="column">
+  <a href="womens rights.html">
+  <img src= "womens rights.jpg" alt= "three women are standing shoulder to shoulder holding an 'womens rights' sign.">
+  </a>
+  </div>
+</div>
+
+<!-- FACTS LIST/BOX -->
+
+<div class="box">
+  <div class="text">
+<p3 id = "fact"></p3>
+  </div>
+    <div class="text">
+<button type="button" id="myBtn">Click for a Fact!</button>
+  </div>
+</div>
+<p2> Facts from <a href="https://www.weforum.org/agenda/2015/12/10-things-to-know-about-human-rights/" alt="link to citations of facts">World Economic Forum</a> 
+
+  </body>
+</html>
