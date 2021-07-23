@@ -1,0 +1,132 @@
+/* BODY TAG */
+body {
+  background-color: #E0A3C2;
+  margin: 0px;
+  padding: 0px;
+}
+/* STYLE HEADER */
+h1 {
+  color: black;
+  text-align: center;
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 40px;
+}
+
+h2 {
+  margin-left: 10px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  color: white; 
+}
+/* STYLE PARAGRAPHS */
+p {
+  margin-left: 25px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  color: black;
+}
+
+p2 {
+color: black;
+  margin-left: 15px;
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 15px;
+  padding: 5px;
+}
+
+p3 {
+   color: black;
+  text-align: center;
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 20px; 
+}
+/* STYLE IMAGES */
+.column {
+  text-align: center;
+  width: 33.33%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+img {
+  border: double 15px black;
+  background-color: #66cc66;
+}
+/* IMAGE HOVER */
+img:hover {
+box-shadow: 0 0 30px black;
+}
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #66cc66;
+  margin-top: 0px;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+}
+li a:hover {
+  background-color: #E0A3C2;
+}
+/* STYLE BUTTONS */
+button {
+    color: white;
+    background-color:#66cc66;
+    border: solid 3px white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+     margin-left: -.9%;
+    width: 700px;
+}
+
+button:hover {
+  color: black;
+  border: solid 3px black;
+}
+/* STYLE BUTTON BOX */
+.box {
+    height: 160px;
+    width: 50%;
+    display: flex;
+    border: 10px double white;
+    margin: auto;
+    padding: 5px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    animation: mymove 5s infinite;
+    background-color: #E0A3C2;
+}
+
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px black;}
+}
+
+.text {
+  padding: 5px;
+    float: none;
+}
